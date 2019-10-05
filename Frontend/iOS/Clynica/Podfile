@@ -6,5 +6,6 @@ target 'Clynica' do
   pod 'MyScriptInteractiveInk-Runtime'
   pod 'MyScriptInteractiveInk-UIReferenceImplementation', :path => '.'
   pod 'MaterialComponents'
+  pod 'TextFieldEffects'
 
 end

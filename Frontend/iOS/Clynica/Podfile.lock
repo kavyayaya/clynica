@@ -677,12 +677,14 @@ PODS:
   - MyScriptInteractiveInk-Runtime (1.3.2)
   - MyScriptInteractiveInk-UIReferenceImplementation (1.3.2):
     - MyScriptInteractiveInk-Runtime (= 1.3.2)
+  - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
   - GoogleSignIn
   - MaterialComponents
   - MyScriptInteractiveInk-Runtime
   - MyScriptInteractiveInk-UIReferenceImplementation (from `.`)
+  - TextFieldEffects
 
 SPEC REPOS:
   trunk:
@@ -697,6 +699,7 @@ SPEC REPOS:
     - MotionInterchange
     - MotionTransitioning
     - MyScriptInteractiveInk-Runtime
+    - TextFieldEffects
 
 EXTERNAL SOURCES:
   MyScriptInteractiveInk-UIReferenceImplementation:
@@ -715,7 +718,8 @@ SPEC CHECKSUMS:
   MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
   MyScriptInteractiveInk-Runtime: 7f9088accc7eedbedab5071a5d74d1b74bc3648f
   MyScriptInteractiveInk-UIReferenceImplementation: eb645a8eba30370732c53002f03a3cf6e5a1678b
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 5b2f001dd2d8b51cf09ea6cc5c3d24f358156b66
+PODFILE CHECKSUM: 0121544f693d4ca5b8b88d11bdb10589de19b3e7
 
 COCOAPODS: 1.8.3
