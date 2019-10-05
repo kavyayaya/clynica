@@ -1,4 +1,4 @@
-# Clynica
+![Clynica Logo](https://raw.githubusercontent.com/Beauth/clynica/master/docs/static/clynica_logo.png)
 
 Clynica is a simple alternative to pen and paper for doctors to manage their patients and prescriptions in one place.
 
