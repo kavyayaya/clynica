@@ -26,9 +26,11 @@ def user():
             exist = mongo.db.users.find_one({'email':data.get('email')})
             # If not, create
             if not exist:
-                mongo.db.users.insert_one(data)
+                # Create blank patients array
+                data['patients'] = []
+                res = mongo.db.users.insert_one(data)
                 LOG.info("/user POST: User created:" + str(data))
-                return jsonify({'success': True, 'message': 'User created successfully!'}), 200
+                return jsonify({'success': True, 'message': 'User created successfully!', 'id': res.inserted_id}), 200
             # Otherwise, conflict
             else:
                 LOG.debug("/user POST: User already exists.")
@@ -41,10 +43,10 @@ def user():
         if data.get('email', None) is not None:
             db_response = mongo.db.users.delete_one({'email': data['email']})
             if db_response.deleted_count == 1:
-                LOG.info("/user DELETE: User deleted:" + data)
+                LOG.info("/user DELETE: User deleted:" + str(data))
                 response = {'success': True, 'message': 'record deleted'}
             else:
-                LOG.info("/user DELETE: No record found for deletion: " + data)
+                LOG.info("/user DELETE: No record found for deletion: " + str(data))
                 response = {'success': True, 'message': 'no record found'}
             return jsonify(response), 200
         else:
