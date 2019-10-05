@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.1'
 
-target 'Clynica' do
+target 'ClynicaApp' do
   pod 'GoogleSignIn'
   pod 'MyScriptInteractiveInk-Runtime'
   pod 'MyScriptInteractiveInk-UIReferenceImplementation', :path => '.'

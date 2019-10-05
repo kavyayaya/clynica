@@ -7,125 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1AF95752348A00E00939CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF95742348A00E00939CFA /* AppDelegate.swift */; };
-		B1AF95772348A00E00939CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF95762348A00E00939CFA /* ViewController.swift */; };
-		B1AF957A2348A00E00939CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AF95782348A00E00939CFA /* Main.storyboard */; };
-		B1AF957C2348A00F00939CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AF957B2348A00F00939CFA /* Assets.xcassets */; };
-		B1AF957F2348A00F00939CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AF957D2348A00F00939CFA /* LaunchScreen.storyboard */; };
-		FF92B60FB16A7F01B6361845 /* libPods-Clynica.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0945B4B7E50A1F55D0CE273 /* libPods-Clynica.a */; };
+		B13B97B32348BEC200B15D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B97B22348BEC200B15D81 /* AppDelegate.swift */; };
+		B13B97B52348BEC200B15D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B97B42348BEC200B15D81 /* ViewController.swift */; };
+		B13B97B82348BEC200B15D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13B97B62348BEC200B15D81 /* Main.storyboard */; };
+		B13B97BA2348BEC300B15D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13B97B92348BEC300B15D81 /* Assets.xcassets */; };
+		B13B97BD2348BEC300B15D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13B97BB2348BEC300B15D81 /* LaunchScreen.storyboard */; };
+		CE87BC7DD678F3D9A9507328 /* libPods-ClynicaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B04360788815D8F262B6ED /* libPods-ClynicaApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		94674AD7616711EBFF039D3D /* Pods-Clynica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clynica.release.xcconfig"; path = "Target Support Files/Pods-Clynica/Pods-Clynica.release.xcconfig"; sourceTree = "<group>"; };
-		AF9D453E34283212F9E2CECF /* Pods-Clynica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clynica.debug.xcconfig"; path = "Target Support Files/Pods-Clynica/Pods-Clynica.debug.xcconfig"; sourceTree = "<group>"; };
-		B1AF95712348A00E00939CFA /* Clynica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clynica.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1AF95742348A00E00939CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1AF95762348A00E00939CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1AF95792348A00E00939CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B1AF957B2348A00F00939CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B1AF957E2348A00F00939CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B1AF95802348A00F00939CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0945B4B7E50A1F55D0CE273 /* libPods-Clynica.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clynica.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECCC7AE5B7B19AEFB642F22 /* Pods-ClynicaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClynicaApp.debug.xcconfig"; path = "Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		159188CE7576C7078493AED2 /* Pods-ClynicaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClynicaApp.release.xcconfig"; path = "Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp.release.xcconfig"; sourceTree = "<group>"; };
+		B13B97AF2348BEC200B15D81 /* ClynicaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClynicaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13B97B22348BEC200B15D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B13B97B42348BEC200B15D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B13B97B72348BEC200B15D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B13B97B92348BEC300B15D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B13B97BC2348BEC300B15D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B13B97BE2348BEC300B15D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B04360788815D8F262B6ED /* libPods-ClynicaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClynicaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1AF956E2348A00E00939CFA /* Frameworks */ = {
+		B13B97AC2348BEC200B15D81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF92B60FB16A7F01B6361845 /* libPods-Clynica.a in Frameworks */,
+				CE87BC7DD678F3D9A9507328 /* libPods-ClynicaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B712CE2B61375AD8BE9735A /* Frameworks */ = {
+		29932B30A735A88F880F593C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0945B4B7E50A1F55D0CE273 /* libPods-Clynica.a */,
+				F1B04360788815D8F262B6ED /* libPods-ClynicaApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B1AF95682348A00E00939CFA = {
+		687D25BD0F93B72E14AEE2E2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1AF95732348A00E00939CFA /* Clynica */,
-				B1AF95722348A00E00939CFA /* Products */,
-				FAF6A997F39FD799BB839F99 /* Pods */,
-				2B712CE2B61375AD8BE9735A /* Frameworks */,
+				0ECCC7AE5B7B19AEFB642F22 /* Pods-ClynicaApp.debug.xcconfig */,
+				159188CE7576C7078493AED2 /* Pods-ClynicaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B13B97A62348BEC200B15D81 = {
+			isa = PBXGroup;
+			children = (
+				B13B97B12348BEC200B15D81 /* ClynicaApp */,
+				B13B97B02348BEC200B15D81 /* Products */,
+				687D25BD0F93B72E14AEE2E2 /* Pods */,
+				29932B30A735A88F880F593C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B1AF95722348A00E00939CFA /* Products */ = {
+		B13B97B02348BEC200B15D81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1AF95712348A00E00939CFA /* Clynica.app */,
+				B13B97AF2348BEC200B15D81 /* ClynicaApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1AF95732348A00E00939CFA /* Clynica */ = {
+		B13B97B12348BEC200B15D81 /* ClynicaApp */ = {
 			isa = PBXGroup;
 			children = (
-				B1AF95742348A00E00939CFA /* AppDelegate.swift */,
-				B1AF95762348A00E00939CFA /* ViewController.swift */,
-				B1AF95782348A00E00939CFA /* Main.storyboard */,
-				B1AF957B2348A00F00939CFA /* Assets.xcassets */,
-				B1AF957D2348A00F00939CFA /* LaunchScreen.storyboard */,
-				B1AF95802348A00F00939CFA /* Info.plist */,
+				B13B97B22348BEC200B15D81 /* AppDelegate.swift */,
+				B13B97B42348BEC200B15D81 /* ViewController.swift */,
+				B13B97B62348BEC200B15D81 /* Main.storyboard */,
+				B13B97B92348BEC300B15D81 /* Assets.xcassets */,
+				B13B97BB2348BEC300B15D81 /* LaunchScreen.storyboard */,
+				B13B97BE2348BEC300B15D81 /* Info.plist */,
 			);
-			path = Clynica;
-			sourceTree = "<group>";
-		};
-		FAF6A997F39FD799BB839F99 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AF9D453E34283212F9E2CECF /* Pods-Clynica.debug.xcconfig */,
-				94674AD7616711EBFF039D3D /* Pods-Clynica.release.xcconfig */,
-			);
-			path = Pods;
+			path = ClynicaApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1AF95702348A00E00939CFA /* Clynica */ = {
+		B13B97AE2348BEC200B15D81 /* ClynicaApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1AF95832348A00F00939CFA /* Build configuration list for PBXNativeTarget "Clynica" */;
+			buildConfigurationList = B13B97C12348BEC300B15D81 /* Build configuration list for PBXNativeTarget "ClynicaApp" */;
 			buildPhases = (
-				7F7A56156687489AC6268D06 /* [CP] Check Pods Manifest.lock */,
-				B1AF956D2348A00E00939CFA /* Sources */,
-				B1AF956E2348A00E00939CFA /* Frameworks */,
-				B1AF956F2348A00E00939CFA /* Resources */,
-				64EB3A33302E9BABA03D5C0C /* [CP] Copy Pods Resources */,
+				919BA71439621AE333012692 /* [CP] Check Pods Manifest.lock */,
+				B13B97AB2348BEC200B15D81 /* Sources */,
+				B13B97AC2348BEC200B15D81 /* Frameworks */,
+				B13B97AD2348BEC200B15D81 /* Resources */,
+				D8A1ED077A467BEE5B1ACC1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Clynica;
-			productName = Clynica;
-			productReference = B1AF95712348A00E00939CFA /* Clynica.app */;
+			name = ClynicaApp;
+			productName = ClynicaApp;
+			productReference = B13B97AF2348BEC200B15D81 /* ClynicaApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B1AF95692348A00E00939CFA /* Project object */ = {
+		B13B97A72348BEC200B15D81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Beauth;
 				TargetAttributes = {
-					B1AF95702348A00E00939CFA = {
+					B13B97AE2348BEC200B15D81 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = B1AF956C2348A00E00939CFA /* Build configuration list for PBXProject "Clynica" */;
+			buildConfigurationList = B13B97AA2348BEC200B15D81 /* Build configuration list for PBXProject "ClynicaApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,48 +133,31 @@
 				en,
 				Base,
 			);
-			mainGroup = B1AF95682348A00E00939CFA;
-			productRefGroup = B1AF95722348A00E00939CFA /* Products */;
+			mainGroup = B13B97A62348BEC200B15D81;
+			productRefGroup = B13B97B02348BEC200B15D81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1AF95702348A00E00939CFA /* Clynica */,
+				B13B97AE2348BEC200B15D81 /* ClynicaApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1AF956F2348A00E00939CFA /* Resources */ = {
+		B13B97AD2348BEC200B15D81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AF957F2348A00F00939CFA /* LaunchScreen.storyboard in Resources */,
-				B1AF957C2348A00F00939CFA /* Assets.xcassets in Resources */,
-				B1AF957A2348A00E00939CFA /* Main.storyboard in Resources */,
+				B13B97BD2348BEC300B15D81 /* LaunchScreen.storyboard in Resources */,
+				B13B97BA2348BEC300B15D81 /* Assets.xcassets in Resources */,
+				B13B97B82348BEC200B15D81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		64EB3A33302E9BABA03D5C0C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Clynica/Pods-Clynica-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Clynica/Pods-Clynica-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clynica/Pods-Clynica-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F7A56156687489AC6268D06 /* [CP] Check Pods Manifest.lock */ = {
+		919BA71439621AE333012692 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,40 +172,57 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Clynica-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ClynicaApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D8A1ED077A467BEE5B1ACC1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1AF956D2348A00E00939CFA /* Sources */ = {
+		B13B97AB2348BEC200B15D81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AF95772348A00E00939CFA /* ViewController.swift in Sources */,
-				B1AF95752348A00E00939CFA /* AppDelegate.swift in Sources */,
+				B13B97B52348BEC200B15D81 /* ViewController.swift in Sources */,
+				B13B97B32348BEC200B15D81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B1AF95782348A00E00939CFA /* Main.storyboard */ = {
+		B13B97B62348BEC200B15D81 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B1AF95792348A00E00939CFA /* Base */,
+				B13B97B72348BEC200B15D81 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B1AF957D2348A00F00939CFA /* LaunchScreen.storyboard */ = {
+		B13B97BB2348BEC300B15D81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B1AF957E2348A00F00939CFA /* Base */,
+				B13B97BC2348BEC300B15D81 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B1AF95812348A00F00939CFA /* Debug */ = {
+		B13B97BF2348BEC300B15D81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +291,7 @@
 			};
 			name = Debug;
 		};
-		B1AF95822348A00F00939CFA /* Release */ = {
+		B13B97C02348BEC300B15D81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,40 +346,40 @@
 			};
 			name = Release;
 		};
-		B1AF95842348A00F00939CFA /* Debug */ = {
+		B13B97C22348BEC300B15D81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF9D453E34283212F9E2CECF /* Pods-Clynica.debug.xcconfig */;
+			baseConfigurationReference = 0ECCC7AE5B7B19AEFB642F22 /* Pods-ClynicaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FYS9RNAGTV;
-				INFOPLIST_FILE = Clynica/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = ClynicaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.Clynica;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.ClynicaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		B1AF95852348A00F00939CFA /* Release */ = {
+		B13B97C32348BEC300B15D81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94674AD7616711EBFF039D3D /* Pods-Clynica.release.xcconfig */;
+			baseConfigurationReference = 159188CE7576C7078493AED2 /* Pods-ClynicaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FYS9RNAGTV;
-				INFOPLIST_FILE = Clynica/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = ClynicaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.Clynica;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.ClynicaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -389,25 +389,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1AF956C2348A00E00939CFA /* Build configuration list for PBXProject "Clynica" */ = {
+		B13B97AA2348BEC200B15D81 /* Build configuration list for PBXProject "ClynicaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1AF95812348A00F00939CFA /* Debug */,
-				B1AF95822348A00F00939CFA /* Release */,
+				B13B97BF2348BEC300B15D81 /* Debug */,
+				B13B97C02348BEC300B15D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1AF95832348A00F00939CFA /* Build configuration list for PBXNativeTarget "Clynica" */ = {
+		B13B97C12348BEC300B15D81 /* Build configuration list for PBXNativeTarget "ClynicaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1AF95842348A00F00939CFA /* Debug */,
-				B1AF95852348A00F00939CFA /* Release */,
+				B13B97C22348BEC300B15D81 /* Debug */,
+				B13B97C32348BEC300B15D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B1AF95692348A00E00939CFA /* Project object */;
+	rootObject = B13B97A72348BEC200B15D81 /* Project object */;
 }
