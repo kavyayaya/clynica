@@ -5,5 +5,6 @@ target 'Clynica' do
   pod 'GoogleSignIn'
   pod 'MyScriptInteractiveInk-Runtime'
   pod 'MyScriptInteractiveInk-UIReferenceImplementation', :path => '.'
+  pod 'MaterialComponents'
 
 end
