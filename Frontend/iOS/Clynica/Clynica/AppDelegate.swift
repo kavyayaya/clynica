@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Beauth
+//  Clynica
 //
-//  Created by Winner 77 on 04/10/19.
+//  Created by Winner 77 on 05/10/19.
 //  Copyright © 2019 Beauth. All rights reserved.
 //
 
