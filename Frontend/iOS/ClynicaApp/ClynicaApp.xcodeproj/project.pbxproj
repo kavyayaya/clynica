@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7D4C6C2349B96D002874FD /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D4C6B2349B96D002874FD /* CanvasView.swift */; };
+		3C7D4C702349C311002874FD /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D4C6F2349C311002874FD /* TableView.swift */; };
+		3C7D4C742349C4D7002874FD /* pdfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D4C732349C4D7002874FD /* pdfView.swift */; };
+		3C7D4C762349C52B002874FD /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7D4C752349C52B002874FD /* sample.pdf */; };
+		3C7D4C782349C7F1002874FD /* PdfViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D4C772349C7F1002874FD /* PdfViewer.swift */; };
+		3C7D4C7A2349C8D1002874FD /* Canv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D4C792349C8D1002874FD /* Canv.swift */; };
 		B13B97B32348BEC200B15D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B97B22348BEC200B15D81 /* AppDelegate.swift */; };
 		B13B97B52348BEC200B15D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B97B42348BEC200B15D81 /* ViewController.swift */; };
 		B13B97B82348BEC200B15D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13B97B62348BEC200B15D81 /* Main.storyboard */; };
@@ -18,6 +24,12 @@
 /* Begin PBXFileReference section */
 		0ECCC7AE5B7B19AEFB642F22 /* Pods-ClynicaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClynicaApp.debug.xcconfig"; path = "Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		159188CE7576C7078493AED2 /* Pods-ClynicaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClynicaApp.release.xcconfig"; path = "Target Support Files/Pods-ClynicaApp/Pods-ClynicaApp.release.xcconfig"; sourceTree = "<group>"; };
+		3C7D4C6B2349B96D002874FD /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		3C7D4C6F2349C311002874FD /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		3C7D4C732349C4D7002874FD /* pdfView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdfView.swift; sourceTree = "<group>"; };
+		3C7D4C752349C52B002874FD /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		3C7D4C772349C7F1002874FD /* PdfViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewer.swift; sourceTree = "<group>"; };
+		3C7D4C792349C8D1002874FD /* Canv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canv.swift; sourceTree = "<group>"; };
 		B13B97AF2348BEC200B15D81 /* ClynicaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClynicaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13B97B22348BEC200B15D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B13B97B42348BEC200B15D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,12 +90,18 @@
 		B13B97B12348BEC200B15D81 /* ClynicaApp */ = {
 			isa = PBXGroup;
 			children = (
+				3C7D4C752349C52B002874FD /* sample.pdf */,
+				3C7D4C732349C4D7002874FD /* pdfView.swift */,
+				3C7D4C6B2349B96D002874FD /* CanvasView.swift */,
 				B13B97B22348BEC200B15D81 /* AppDelegate.swift */,
 				B13B97B42348BEC200B15D81 /* ViewController.swift */,
+				3C7D4C792349C8D1002874FD /* Canv.swift */,
 				B13B97B62348BEC200B15D81 /* Main.storyboard */,
+				3C7D4C6F2349C311002874FD /* TableView.swift */,
 				B13B97B92348BEC300B15D81 /* Assets.xcassets */,
 				B13B97BB2348BEC300B15D81 /* LaunchScreen.storyboard */,
 				B13B97BE2348BEC300B15D81 /* Info.plist */,
+				3C7D4C772349C7F1002874FD /* PdfViewer.swift */,
 			);
 			path = ClynicaApp;
 			sourceTree = "<group>";
@@ -148,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7D4C762349C52B002874FD /* sample.pdf in Resources */,
 				B13B97BD2348BEC300B15D81 /* LaunchScreen.storyboard in Resources */,
 				B13B97BA2348BEC300B15D81 /* Assets.xcassets in Resources */,
 				B13B97B82348BEC200B15D81 /* Main.storyboard in Resources */,
@@ -204,7 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B13B97B52348BEC200B15D81 /* ViewController.swift in Sources */,
+				3C7D4C7A2349C8D1002874FD /* Canv.swift in Sources */,
+				3C7D4C702349C311002874FD /* TableView.swift in Sources */,
+				3C7D4C782349C7F1002874FD /* PdfViewer.swift in Sources */,
 				B13B97B32348BEC200B15D81 /* AppDelegate.swift in Sources */,
+				3C7D4C742349C4D7002874FD /* pdfView.swift in Sources */,
+				3C7D4C6C2349B96D002874FD /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -336,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -352,14 +376,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FYS9RNAGTV;
+				DEVELOPMENT_TEAM = GYP5U8V7NY;
 				INFOPLIST_FILE = ClynicaApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.ClynicaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.ClynicaApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -372,14 +396,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FYS9RNAGTV;
+				DEVELOPMENT_TEAM = GYP5U8V7NY;
 				INFOPLIST_FILE = ClynicaApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.ClynicaApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beauth.ClynicaApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
