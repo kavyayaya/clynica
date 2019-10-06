@@ -18,3 +18,7 @@ $ python3 index.py
 ```
 
 The Flask server runs on port 5500 by default. This can be changed in `index.py`.
+
+### API Documentation
+
+The API documentation is available [here](https://documenter.getpostman.com/view/2380347/SVtR3BGt?version=latest).
