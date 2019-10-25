@@ -12,8 +12,12 @@ LOG = logger.get_root_logger(
 
 @app.route('/patient', methods=['GET', 'POST', 'DELETE', 'PATCH'])
 def patient():
+    '''Methods to GET, ADD, DELETE and PATCH patient data.'''
     data = None
     if request.method == 'GET':
+        '''GET Patient data.
+        Required params: doctor_id, _id
+        '''
         query = request.args
         if query.get('doctor_id', None):
             LOG.debug("doctor_id found")
@@ -43,6 +47,10 @@ def patient():
 
     data = request.get_json()
     if request.method == 'POST':
+        '''
+        INSERT Patient record.
+        Required params: doctor_id, data (JSON Object with patient data).
+        '''
         if data.get('doctor_id', None) is not None:
             # Get doctor's _id
             doctor_id = ObjectId(data['doctor_id'])
@@ -61,6 +69,10 @@ def patient():
             return jsonify({'success': False, 'message': 'Bad request parameters!'}), 400
 
     if request.method == 'DELETE':
+        '''
+        DELETE Patient data.
+        Required params: _id.
+        '''
         if data.get('_id', None) is not None:
             db_response = mongo.db.patients.delete_one({'_id': ObjectId(data['_id'])})
             if db_response.deleted_count == 1:
@@ -75,6 +87,10 @@ def patient():
             return jsonify({'success': False, 'message': 'Bad request parameters!'}), 400
 
     if request.method == 'PATCH':
+        '''
+        PATCH Patient data.
+        Required params: _id.
+        '''
         if data.get('query', {}) != {}:
             ob_id = {"_id": ObjectId(data['query'].get('_id', {}))}
             mongo.db.patients.update_one(
