@@ -11,7 +11,11 @@ LOG = logger.get_root_logger(
 
 @app.route('/user', methods=['GET', 'POST', 'DELETE', 'PATCH'])
 def user():
+    '''Methods to GET, ADD, DELETE and PATCH user data.'''
     if request.method == 'GET':
+        '''GET User data.
+        Required params: _id/username.
+        '''
         query = request.args
         data = mongo.db.users.find_one(query)
         if data:
@@ -21,6 +25,10 @@ def user():
 
     data = request.get_json()
     if request.method == 'POST':
+        '''
+        INSERT User record.
+        Required params: email, data (JSON Object with user data).
+        '''
         if data.get('name', None) is not None and data.get('email', None) is not None:
             # Check if user already exists
             exist = mongo.db.users.find_one({'email':data.get('email')})
@@ -40,6 +48,10 @@ def user():
             return jsonify({'success': False, 'message': 'Bad request parameters!'}), 400
 
     if request.method == 'DELETE':
+        '''
+        DELETE User data.
+        Required params: email.
+        '''
         if data.get('email', None) is not None:
             db_response = mongo.db.users.delete_one({'email': data['email']})
             if db_response.deleted_count == 1:
@@ -54,6 +66,10 @@ def user():
             return jsonify({'success': False, 'message': 'Bad request parameters!'}), 400
 
     if request.method == 'PATCH':
+        '''
+        PATCH User data.
+        Required params: _id.
+        '''
         if data.get('query', {}) != {}:
             mongo.db.users.update_one(
                 data['query'], {'$set': data.get('payload', {})})
